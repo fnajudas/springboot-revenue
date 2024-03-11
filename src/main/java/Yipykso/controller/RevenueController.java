@@ -12,6 +12,7 @@ import java.util.List;
 @RequestMapping("/api/revenue")
 public class RevenueController {
 
+    // Used for dependency injection
     @Autowired
     private RevenueService revenueService;
 
